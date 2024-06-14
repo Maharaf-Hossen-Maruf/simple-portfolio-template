@@ -18,6 +18,7 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+    /* text-align: center; */
     
 }
 .header{
@@ -166,4 +167,110 @@ nav  li{
 .skill-description{
     font-size: 15px;
     color: #757575;
+}
+
+/* Resume Section style */
+/* .resume-section{
+
+} */
+.resume-title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.resume-container{
+    display: flex;
+    text-align: left;
+    /* justify-content: space-between; */
+    /* padding: 100px; */
+}
+.resume-box{
+    border-bottom: 1px solid #c0bebe ;
+    margin: 15px;
+    border-radius: 2px;
+}
+.resume-info-title{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px 0;
+}
+.resume-sub-title{
+    font-weight: 650;
+    font-size: 18px;
+
+}
+.resume-super-sub-title{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.resume-description{
+    font-size: 12px ;
+    margin-bottom: 10px;
+    color: #ccc8c8;
+}
+
+.resume-button-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 100vh */
+}
+
+.resume-download-btn{
+    background-color : #FD6E0A;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    /* height: 64px; */
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    /* text-align: center; */
+}
+/* Contact Section  */
+
+.contact-section{
+    display: flex;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.connect-sec{
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+}
+.connect-sec a{
+    text-decoration: none;
+    margin: 10px;
+}
+.connect-para{
+    color: #c2c0c0;
+    margin: 20px ;
+}
+.lets-sec{
+    width: 50%;
+    margin: 20px;
+    
+}
+.contact-title{
+    font-size: 28px;
+    margin: 20px;
+
+}
+.lets-sec input[type="text"] , input[type="email"] , textarea{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    width: 60% ;
+    /* margin-bottom: 10px; */
+}
+.lets-sec input[type="submit"]{
+    margin: 10px;
+    padding: 10px;
+
 }
